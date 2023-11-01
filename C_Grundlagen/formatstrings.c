@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 void main(){
-    char **format1 = "0x%04X";
-    char **format2 = "|%8s|%8s|";
-    char **format3 = "%.2f EUR";
+    char **format1 = "0x%04X\n";
+    char **format2 = "|%8s|%8s|\n";
+    char **format3 = "%.2f EUR\n";
 
     printf(format1, 0x12ab);
     printf(format1, 0x2a);
