@@ -12,5 +12,6 @@ unsigned int CountUpperCase(char *string){
 
 //Test
 void main(){
-    printf("%s hat %i UpperCase Character", "aBcDeF", CountUpperCase("aBcDeF"));
+    char *string = "aBcDeF";
+    printf("%s hat %i UpperCase Character", string, CountUpperCase(string));
 }
